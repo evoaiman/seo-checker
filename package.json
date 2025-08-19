@@ -1,0 +1,39 @@
+{
+  "name": "@evoaiman/seo-checker",
+  "version": "2.2.0",
+  "description": "SEO checker for Nuxt projects - validates generateSEO usage, sitemap coverage, and schema implementation",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "seo-check": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evoaiman/seo-checker.git"
+  },
+  "keywords": [
+    "seo",
+    "nuxt",
+    "checker",
+    "validation",
+    "sitemap",
+    "robots",
+    "schema.org"
+  ],
+  "author": "evoaiman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evoaiman/seo-checker/issues"
+  },
+  "homepage": "https://github.com/evoaiman/seo-checker#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
